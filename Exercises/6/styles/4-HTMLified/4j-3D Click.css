@@ -1,0 +1,16 @@
+.shadow {
+  background-color: green;
+  color: white;
+  padding: 5px 12px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+
+  transition: box-shadow 0.1s, margin-top 0.1s, margin-left 0.1s;
+}
+
+.shadow:active {
+  box-shadow: 0 0 0 black;
+  margin-top: 3px;
+  margin-left: 3px;
+}

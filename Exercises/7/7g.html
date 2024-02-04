@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Twitter Text Box Clone</title>
+    <style>
+      .pfp {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 35px;
+        margin-right: 10px;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+
+      .content {
+        border: none;
+        width: 300px;
+        font-size: 14px;
+        vertical-align: middle;
+        padding: 8px 4px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+      .tweet {
+        background-color: #1d9bf0; /* color picked from exact website */
+        padding: 10px 16px;
+        color: white;
+        border: none;
+        border-radius: 17.5px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        vertical-align: middle;
+
+        transition: box-shadow 0.15s, opacity 0.15s;
+      }
+
+      .tweet:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .tweet:active {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="pfp" src="corgi.jpg" alt="photo of corgi" />
+    <input class="content" type="text" placeholder="What's happening?" />
+    <button class="tweet">Tweet</button>
+  </body>
+</html>

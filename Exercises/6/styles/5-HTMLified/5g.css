@@ -1,0 +1,35 @@
+p {
+  font-family: Arial;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.details {
+  font-weight: normal;
+  color: gray;
+}
+
+.tweet_content {
+  line-height: 20px;
+  width: 500px;
+}
+
+.mention {
+  color: rgb(103, 156, 248);
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.mention:hover {
+  text-decoration: underline;
+}
+
+.mention:active {
+  color: rgb(0, 123, 255);
+}

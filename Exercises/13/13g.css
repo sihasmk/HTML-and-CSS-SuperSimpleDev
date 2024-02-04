@@ -1,0 +1,72 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.outermost-flex {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-div {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.pfp {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.content-div {
+  width: 400px;
+}
+
+.username {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.handle {
+  color: gray;
+  font-weight: normal;
+}
+
+.tweet-text {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.attachment {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.thumbnail {
+  flex: 1;
+  border: 1px solid gray;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: gray;
+  margin-left: -1px;
+}
+
+.link-and-title {
+  padding: 12px;
+  width: 230px;
+}
+
+.link {
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.title {
+  line-height: 20px;
+}

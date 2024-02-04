@@ -1,0 +1,54 @@
+
+.BS_get_started {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.BS_get_started:hover {
+  background-color: rgb(110, 23, 192);
+}
+
+.BS_get_started:active {
+  opacity: 0.8;
+}
+
+.BS_download {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  width: 100px;
+  height: 35px;
+  border-color: rgb(108, 117, 125);
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+}
+
+.BS_download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.BS_download:active {
+  opacity: 0.8;
+}

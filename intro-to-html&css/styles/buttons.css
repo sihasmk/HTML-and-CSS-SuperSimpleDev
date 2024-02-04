@@ -1,0 +1,81 @@
+.yt_sub {
+  /* CSS Property : Property Value; */
+  background-color: #cc0000; /* color picked from exact website */
+  padding: 10px 16px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+/* hover is a pseudo class */
+/* designs what happens when we hover over button*/
+.yt_sub:hover {
+  opacity: 0.7;
+}
+
+/* active is also a pseudo class */
+/* designs what happens when we click the button*/
+.yt_sub:active {
+  opacity: 0.4;
+}
+
+.twitter_join {
+  background-color: white;
+  padding: 9px 16px;
+  color: #065fd4; /* color picked from exact website */
+  border-radius: 2px;
+  border-color: rgb(0, 140, 240);
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  transition: color 0.15s, background-color 0.15s, opacity 0.15s;
+  vertical-align: top;
+}
+
+.twitter_join:hover {
+  background-color: #065fd4;
+  color: white;
+}
+
+.twitter_join:active {
+  opacity: 0.7;
+}
+
+.twitter_tweet {
+  background-color: #1d9bf0; /* color picked from exact website */
+  padding: 10px 16px;
+  color: white;
+  border: none;
+  border-radius: 17.5px;
+  font-weight: bold;
+  font-size: 15;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  transition: box-shadow 0.15s, opacity 0.15s;
+  vertical-align: top;
+}
+
+.twitter_tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.twitter_tweet:active {
+  opacity: 0.7;
+}

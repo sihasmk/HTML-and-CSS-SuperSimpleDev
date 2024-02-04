@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Facebook Friend Suggestion Clone</title>
+  </head>
+  <style>
+    p {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .outermost-grid {
+      display: grid;
+      grid-template-columns: 170px 170px 170px;
+      column-gap: 20px;
+      row-gap: 40px;
+      align-items: center;
+    }
+
+    .outermost-div {
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .info-div {
+      font-family: Arial;
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+
+    img {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+    }
+
+    .username {
+      font-size: 22px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .mutuals-and-photo-grid {
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      align-items: center;
+    }
+
+    .mutual-pfp {
+      width: 36px;
+      height: 36px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+
+    .mutuals {
+      font-size: 14px;
+      color: gray;
+    }
+
+    .add {
+      margin-top: 5px;
+      background-color: rgb(24, 119, 242);
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+
+      transition: background-color 0.15s;
+    }
+
+    .add:hover {
+      background-color: rgb(20, 110, 210);
+    }
+
+    .add:active {
+      opacity: 0.9;
+    }
+  </style>
+  <body>
+    <div class="outermost-grid">
+      <div class="outermost-div">
+        <div class="image-div">
+          <img
+            src="/Exercises/9/oliver.jpg"
+            alt="Oliver's PFP couldn't be loaded"
+          />
+        </div>
+        <div class="info-div">
+          <div class="username-div">
+            <h1 class="username">Oliver</h1>
+          </div>
+          <div class="mutuals-and-photo-grid">
+            <div class="mutual-pfp-div">
+              <img class="mutual-pfp" src="mutual.jpg" />
+            </div>
+            <div>
+              <p class="mutuals">2 mutual friends</p>
+            </div>
+          </div>
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="outermost-div">
+        <div class="image-div">
+          <img
+            src="/Exercises/9/bronco.jpg"
+            alt="Bronco's PFP couldn't be loaded"
+          />
+        </div>
+        <div class="info-div">
+          <div class="username-div">
+            <h1 class="username">Bronco</h1>
+          </div>
+          <div class="mutuals-and-photo-grid">
+            <div class="mutual-pfp-div">
+              <img class="mutual-pfp" src="mutual.jpg" />
+            </div>
+            <div>
+              <p class="mutuals">1 mutual friend</p>
+            </div>
+          </div>
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="outermost-div">
+        <div class="image-div">
+          <img
+            src="/Exercises/9/mimi.jpg"
+            alt="Mimi's PFP couldn't be loaded"
+          />
+        </div>
+        <div class="info-div">
+          <div class="username-div">
+            <h1 class="username">Mimi</h1>
+          </div>
+          <div class="mutuals-and-photo-grid">
+            <div class="mutual-pfp-div">
+              <img class="mutual-pfp" src="mutual.jpg" />
+            </div>
+            <div>
+              <p class="mutuals">3 mutual friends</p>
+            </div>
+          </div>
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="outermost-div">
+        <div class="image-div">
+          <img
+            src="/Exercises/9/rocky.jpg"
+            alt="Rocky's PFP couldn't be loaded"
+          />
+        </div>
+        <div class="info-div">
+          <div class="username-div">
+            <h1 class="username">Rocky</h1>
+          </div>
+          <div class="mutuals-and-photo-grid">
+            <div class="mutual-pfp-div">
+              <img class="mutual-pfp" src="mutual.jpg" />
+            </div>
+            <div>
+              <p class="mutuals">5 mutual friends</p>
+            </div>
+          </div>
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="outermost-div">
+        <div class="image-div">
+          <img
+            src="/Exercises/9/galaxy destroyer.jpg"
+            alt="Galaxy Destroyer's PFP couldn't be loaded"
+          />
+        </div>
+        <div class="info-div">
+          <div class="username-div">
+            <h1 class="username">Galaxy Destroyer</h1>
+          </div>
+          <div class="mutuals-and-photo-grid">
+            <div class="mutual-pfp-div">
+              <img class="mutual-pfp" src="mutual.jpg" />
+            </div>
+            <div>
+              <p class="mutuals">2 mutual friends</p>
+            </div>
+          </div>
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

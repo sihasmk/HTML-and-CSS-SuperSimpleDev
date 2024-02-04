@@ -1,0 +1,52 @@
+.linkedin_apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  width: 210px;
+  height: 36px;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.15s, opacity 0.1s;
+}
+
+.linkedin_apply:hover {
+  background-color: rgb(26, 26, 143);
+}
+
+.linkedin_apply:active {
+  opacity: 0.75;
+}
+
+.linkedin_save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  width: 68px;
+  height: 36px;
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(10, 102, 194);
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  transition: opacity 0.1s, background-color 0.15s, border-width 1ms;
+}
+
+.linkedin_save:hover {
+  background-color: rgba(0, 0, 255, 0.1);
+  border-width: 3px;
+}
+
+.linkedin_save:active {
+  opacity: 0.75;
+}

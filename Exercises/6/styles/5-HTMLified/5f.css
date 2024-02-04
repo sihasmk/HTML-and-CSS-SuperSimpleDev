@@ -1,0 +1,29 @@
+p {
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.amt {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.currency {
+  color: gray;
+  font-size: 14px;
+}
+
+.change {
+  color: green;
+  margin-bottom: 8px;
+}
+
+.after {
+  color: gray;
+  font-size: 14px;
+}
+
+.red {
+  color: red;
+}

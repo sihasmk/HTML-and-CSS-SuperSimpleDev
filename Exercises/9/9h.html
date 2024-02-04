@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Google Search Clone</title>
+    <style>
+      .img-div {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 100px;
+      }
+
+      .search-bar-div {
+        text-align: center;
+        margin-bottom: 30px;
+        height: 44px;
+        vertical-align: middle;
+      }
+
+      .button-div {
+        text-align: center;
+      }
+
+      .logo {
+        width: 200px;
+      }
+
+      .search-bar {
+        width: 500px;
+        border-radius: 150px;
+        border: none;
+        padding: 12px 16px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+        transition: box-shadow 0.15s;
+      }
+
+      .search-bar:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .google-button {
+        background-color: rgba(163, 163, 163, 0.2);
+        padding: 12px 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: none;
+
+        transition: background-color 0.15s, opacity 0.15s;
+      }
+
+      .google-button:hover {
+        background-color: rgba(101, 101, 101, 0.368);
+      }
+
+      .google-button:active {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img-div">
+      <img
+        class="logo"
+        src="/Exercises/8/google-logo2.png"
+        alt="Couldn't load Google Logo"
+      />
+    </div>
+
+    <div class="search-bar-div">
+      <input
+        class="search-bar"
+        type="text"
+        placeholder="Search Google or type a URL"
+      />
+    </div>
+
+    <div class="button-div">
+      <button class="google-button">Google Search</button>
+      <button class="google-button">I'm Feeling Lucky</button>
+    </div>
+  </body>
+</html>

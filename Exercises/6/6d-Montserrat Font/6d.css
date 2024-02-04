@@ -1,0 +1,22 @@
+p {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.model {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.link {
+  color: rgb(0, 98, 255);
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active {
+  color: purple;
+}

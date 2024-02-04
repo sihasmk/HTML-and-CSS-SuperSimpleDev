@@ -1,0 +1,35 @@
+.product {
+  font-size: 24;
+  font-weight: bold;
+}
+
+.price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.back {
+  color: rgb(0, 113, 133);
+}
+
+.addtocart {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.buynow {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
